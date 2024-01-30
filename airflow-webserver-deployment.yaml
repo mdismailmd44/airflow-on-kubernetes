@@ -44,7 +44,7 @@ spec:
             name: requirements-configmap
         - name: dags-host-volume
           hostPath:
-            path: /mnt/airflow/dags
+            path: /home/cloudera-scm/airflow/dags
             type: Directory
         - name: logs-persistent-storage
           persistentVolumeClaim:
